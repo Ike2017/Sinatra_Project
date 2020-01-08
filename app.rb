@@ -20,5 +20,8 @@ get '/riverway' do
 end
 
 get '/cat' do
+  @name = %w(Amigo Oscar Viking).sample
+  # p "*********"
+  # p @name
   erb(:index)
 end
